@@ -42,11 +42,11 @@ Matching an Email: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Bracket Expressions
 
-    Bracket expressions are enclosed in a set of [] square brackets. They require a match to the list of expressoins containted in the brackets. This expression for email validation includes the following:
+    Bracket expressions are enclosed in a set of [] square brackets. They require a match to the list of expressions contained in the brackets. This expression for email validation includes the following:
 
-    - [a-z0-9_\.-], matches any letter a-z and is case senstive, matches a character 0-9 and matches the characters "\_" , "-" , and ".";
-    - [\da-z\.-], matches a single digit from 0-9, any character a-z (case senstive), and the characters "." and "-".;
-    - [a-z\.] matches any character a-z(case senstive) and the character ".".
+    - [a-z0-9_\.-], matches any letter a-z and is case sensitive, matches a character 0-9 and matches the characters "\_" , "-" , and ".";
+    - [\da-z\.-], matches a single digit from 0-9, any character a-z (case sensitive), and the characters "." and "-".;
+    - [a-z\.] matches any character a-z(case sensitive) and the character ".".
 
 ### Character Classes
 
@@ -56,11 +56,11 @@ Matching an Email: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### The OR Operator
 
-    The "OR" Operator is designated by using the pipe character | which separates chaharaters contained within each (....) group. Our matching email regex is not using any OR operators.
+    The "OR" Operator is designated by using the pipe character | which separates characters contained within each (....) group. Our matching email regex is not using any OR operators.
 
 ### Flags
 
-    There are six regular expression flags in java script; i, g, m, u, and y. Each flags affects teh search and this regular epression is not using any flags.
+    There are six regular expression flags in java script; i, g, m, u, and y. Each flags affects the search and this regular expression is not using any flags.
 
 ### Character Escapes
 
